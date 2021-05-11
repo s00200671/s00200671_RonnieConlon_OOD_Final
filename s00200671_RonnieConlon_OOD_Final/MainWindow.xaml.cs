@@ -56,6 +56,7 @@ namespace s00200671_RonnieConlon_OOD_Final
 
             if (selectedGame != null)
             {
+                // Set the details in the xaml
                 Game_IMG.Source = new BitmapImage(new Uri(selectedGame.GameImage, UriKind.Relative));
                 GamePrice_tblk.Text = $"{selectedGame.Price:C}";
                 GamePlatform_tblk.Text = selectedGame.Platform;
