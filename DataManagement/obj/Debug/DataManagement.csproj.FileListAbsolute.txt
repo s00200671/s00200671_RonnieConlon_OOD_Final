@@ -1,0 +1,15 @@
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\DataManagement.exe.config
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\DataManagement.exe
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\DataManagement.pdb
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\EntityFramework.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\s00200671_RonnieConlon_OOD_Final.exe
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\s00200671_RonnieConlon_OOD_Final.pdb
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\s00200671_RonnieConlon_OOD_Final.exe.config
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\EntityFramework.xml
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\obj\Debug\DataManagement.csprojAssemblyReference.cache
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\obj\Debug\DataManagement.csproj.CoreCompileInputs.cache
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\obj\Debug\DataManagement.csproj.CopyComplete
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\obj\Debug\DataManagement.exe
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\DataManagement\obj\Debug\DataManagement.pdb

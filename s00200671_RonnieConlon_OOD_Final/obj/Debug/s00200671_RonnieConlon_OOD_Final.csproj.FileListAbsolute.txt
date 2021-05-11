@@ -13,3 +13,8 @@ C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Fin
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\s00200671_RonnieConlon_OOD_Final.csproj.CoreCompileInputs.cache
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\s00200671_RonnieConlon_OOD_Final.exe
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\s00200671_RonnieConlon_OOD_Final.pdb
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.xml
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\s00200671_RonnieConlon_OOD_Final.csproj.CopyComplete
