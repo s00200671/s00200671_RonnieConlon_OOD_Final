@@ -5,27 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:s00200671_RonnieConlon_OOD_Final"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="MainWindow" Height="490.8" Width="908.8" Loaded="Window_Loaded">
 
-    <!--<Window.Resources>
+    <Window.Resources>
         <DataTemplate x:Key="listboxTemplate">
             <StackPanel Orientation="Horizontal">
                 <Image Source="{Binding GameImage}" Width="100px" Height="100px"/>
                 <TextBlock Margin="5" Text="{Binding Name}" VerticalAlignment="Center"/>
+                <TextBlock Margin="5" Text=" - " VerticalAlignment="Center"/>
+                <TextBlock Margin="5" Text="{Binding MetacriticScore}" VerticalAlignment="Center"/>
             </StackPanel>
         </DataTemplate>
-    </Window.Resources>-->
+    </Window.Resources>
 
     <Grid>
 
-        <ListBox x:Name="lbxGames" HorizontalAlignment="Left" Height="247" Margin="110,76,0,0" VerticalAlignment="Top" Width="225" SelectionChanged="lbxGames_SelectionChanged"/>
+        <ListBox x:Name="lbxGames" ItemTemplate="{StaticResource ResourceKey=listboxTemplate}" HorizontalAlignment="Left" Height="247" Margin="110,76,0,0" VerticalAlignment="Top" Width="276" SelectionChanged="lbxGames_SelectionChanged"/>
 
-        <Image x:Name="Game_IMG" HorizontalAlignment="Left" Height="250" Margin="574,73,0,0" VerticalAlignment="Top" Width="188"/>
-        <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="383,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="159" FontSize="16"/>
-        <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="383,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="159" FontSize="12"/>
-        <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" Margin="383,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="180" Width="159" FontSize="12" RenderTransformOrigin="-1.921,-0.294"/>
+        <Image x:Name="Game_IMG" HorizontalAlignment="Left" Height="250" Margin="645,73,0,0" VerticalAlignment="Top" Width="188"/>
+        <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="406,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="200" FontSize="16"/>
+        <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="406,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="200" FontSize="12"/>
+        <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" Margin="406,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="180" Width="200" FontSize="12" RenderTransformOrigin="-1.921,-0.294"/>
         <Label Content="Filter by platform:" HorizontalAlignment="Left" Margin="110,45,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="214,48,0,0" VerticalAlignment="Top" Width="121" Height="23" DropDownClosed="ComboBox_DropDownClosed">
+        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="247,48,0,0" VerticalAlignment="Top" Width="121" Height="23" DropDownClosed="ComboBox_DropDownClosed">
             <ComboBoxItem Content="All" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="PS" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="Switch" HorizontalAlignment="Left" Width="119.2"/>
