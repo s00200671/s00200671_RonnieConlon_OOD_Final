@@ -4,6 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:s00200671_RonnieConlon_OOD_Final"
+        
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="490.8" Width="908.8" Loaded="Window_Loaded">
 
@@ -25,9 +29,9 @@
         <Image x:Name="Game_IMG" HorizontalAlignment="Left" Height="250" Margin="645,73,0,0" VerticalAlignment="Top" Width="188"/>
         <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="406,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="200" FontSize="16"/>
         <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="406,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="200" FontSize="12"/>
-        <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" Margin="406,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="180" Width="200" FontSize="12" RenderTransformOrigin="-1.921,-0.294"/>
+        <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" Margin="406,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="241" Width="200" FontSize="12" RenderTransformOrigin="-1.921,-0.294"/>
         <Label Content="Filter by platform:" HorizontalAlignment="Left" Margin="110,45,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="247,48,0,0" VerticalAlignment="Top" Width="121" Height="23" DropDownClosed="ComboBox_DropDownClosed">
+        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="247,48,0,0" VerticalAlignment="Top" Width="139" Height="23" DropDownClosed="ComboBox_DropDownClosed">
             <ComboBoxItem Content="All" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="PS" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="Switch" HorizontalAlignment="Left" Width="119.2"/>

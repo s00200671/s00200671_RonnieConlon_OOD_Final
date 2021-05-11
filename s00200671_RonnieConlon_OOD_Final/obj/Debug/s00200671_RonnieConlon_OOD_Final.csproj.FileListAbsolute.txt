@@ -18,3 +18,9 @@ C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Fin
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.xml
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\s00200671_RonnieConlon_OOD_Final.csproj.CopyComplete
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\MaterialDesignColors.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\MaterialDesignColors.pdb
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\vkqwn\Documents\college\y2\ood\finalexam\s00200671_RonnieConlon_OOD_Final\s00200671_RonnieConlon_OOD_Final\obj\Debug\App.baml
