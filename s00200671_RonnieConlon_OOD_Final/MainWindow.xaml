@@ -15,42 +15,43 @@
         <DataTemplate x:Key="listboxTemplate">
             <StackPanel Orientation="Horizontal">
                 <Image Source="{Binding GameImage}" Width="100px" Height="100px"/>
-                <TextBlock Margin="5" Text="{Binding Name}" VerticalAlignment="Center"/>
+                <TextBlock Margin="5" Text="{Binding Name}" FontSize="14" VerticalAlignment="Center"/>
                 <TextBlock Margin="5" Text=" - " VerticalAlignment="Center"/>
-                <TextBlock Margin="5" Text="{Binding MetacriticScore}" VerticalAlignment="Center"/>
+                <TextBlock Margin="5" Text="{Binding MetacriticScore}" FontSize="14" Foreground="White" Background="LimeGreen" VerticalAlignment="Center"/>
             </StackPanel>
         </DataTemplate>
     </Window.Resources>
 
-    <Grid>
+    <Grid RenderTransformOrigin="0.516,0.524">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="5*" />
             <ColumnDefinition Width="6*" />
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
-            <RowDefinition Height="6*" />
+            <RowDefinition Height="9*" />
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <ListBox x:Name="lbxGames" ItemTemplate="{StaticResource ResourceKey=listboxTemplate}" HorizontalAlignment="Left" Height="286" Margin="9.8,50.4,0,0" VerticalAlignment="Top" Width="281" SelectionChanged="lbxGames_SelectionChanged" Grid.Row="1" Grid.Column="1"/>
-
-        <Image x:Name="Game_IMG" HorizontalAlignment="Left" Height="250" Margin="253,50.4,0,0" VerticalAlignment="Top" Width="188" Grid.Column="2" Grid.Row="1"/>
-        <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="15,30.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="220" FontSize="16" Grid.Column="2" Grid.Row="1"/>
-        <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="15,76.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="220" FontSize="12" Grid.Column="2" Grid.Row="1"/>
-        <ScrollViewer  Height="213" FontSize="12" Grid.Column="2" Grid.Row="1" Margin="15,123.4,0,0" HorizontalAlignment="Left" Width="225" VerticalAlignment="Top">
+        <ListBox x:Name="lbxGames" ItemTemplate="{StaticResource ResourceKey=listboxTemplate}" HorizontalAlignment="Left" Height="317" Margin="9.4,50.6,0,0" VerticalAlignment="Top" Width="328" SelectionChanged="lbxGames_SelectionChanged" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="102,32.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="267" FontSize="16" Grid.Column="2" Grid.Row="1"/>
+        <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="102,77.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="267" FontSize="12" Grid.Column="2" Grid.Row="1"/>
+        <ScrollViewer  Height="244" FontSize="12" Grid.Column="2" Grid.Row="1" Margin="102,123.6,0,0" HorizontalAlignment="Left" Width="267" VerticalAlignment="Top">
             <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="2" Grid.Row="1"/>
         </ScrollViewer>
-        <Label Content="Filter by platform:" HorizontalAlignment="Left" Margin="9.8,21.4,0,0" VerticalAlignment="Top" Grid.Column="1" Width="105" Grid.Row="1"/>
-        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="151.8,21.4,0,0" VerticalAlignment="Top" Width="139" Height="23" DropDownClosed="ComboBox_DropDownClosed" Grid.Column="1" Grid.Row="1">
+        <Label Content="Filter by platform:" HorizontalAlignment="Left" Margin="27.4,22.6,0,0" VerticalAlignment="Top" Grid.Column="1" Width="105" Grid.Row="1"/>
+        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="154.4,22.6,0,0" VerticalAlignment="Top" Width="183" Height="23" DropDownClosed="ComboBox_DropDownClosed" Grid.Column="1" Grid.Row="1">
             <ComboBoxItem Content="All" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="PS" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="Switch" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="Xbox" HorizontalAlignment="Left" Width="119.2"/>
             <ComboBoxItem Content="PC" HorizontalAlignment="Left" Width="119.2"/>
         </ComboBox>
+        <Label Content="Price:" Grid.Column="2" HorizontalAlignment="Left" Margin="46,33.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30" RenderTransformOrigin="0.5,0.413"/>
+        <Label Content="Platforms:" Grid.Column="2" HorizontalAlignment="Left" Margin="21,77.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30"/>
+        <Label Content="Description:" Grid.Column="2" HorizontalAlignment="Left" Margin="11.2,123.6,0,0" Grid.Row="1" VerticalAlignment="Top" Height="30"/>
     </Grid>
 </Window>
