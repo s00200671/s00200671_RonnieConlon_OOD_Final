@@ -24,5 +24,13 @@
         <TextBlock x:Name="GamePrice_tblk" HorizontalAlignment="Left" Margin="383,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="159" FontSize="16"/>
         <TextBlock x:Name="GamePlatform_tblk" HorizontalAlignment="Left" Margin="383,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="159" FontSize="12"/>
         <TextBlock x:Name="GameDesc_tblk" HorizontalAlignment="Left" Margin="383,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="180" Width="159" FontSize="12" RenderTransformOrigin="-1.921,-0.294"/>
+        <Label Content="Filter by platform:" HorizontalAlignment="Left" Margin="110,45,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Platform_cbx" HorizontalAlignment="Left" Margin="214,48,0,0" VerticalAlignment="Top" Width="121" Height="23" DropDownClosed="ComboBox_DropDownClosed">
+            <ComboBoxItem Content="All" HorizontalAlignment="Left" Width="119.2"/>
+            <ComboBoxItem Content="PS" HorizontalAlignment="Left" Width="119.2"/>
+            <ComboBoxItem Content="Switch" HorizontalAlignment="Left" Width="119.2"/>
+            <ComboBoxItem Content="Xbox" HorizontalAlignment="Left" Width="119.2"/>
+            <ComboBoxItem Content="PC" HorizontalAlignment="Left" Width="119.2"/>
+        </ComboBox>
     </Grid>
 </Window>

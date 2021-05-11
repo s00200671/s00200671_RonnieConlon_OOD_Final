@@ -21,6 +21,7 @@ namespace s00200671_RonnieConlon_OOD_Final
     public partial class MainWindow : Window
     {
         List<Game> Games;
+        List<Game> FilteredGames;
 
         public MainWindow()
         {
@@ -29,14 +30,23 @@ namespace s00200671_RonnieConlon_OOD_Final
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            // Get the db
             GameInformation db = new GameInformation();
 
+            // Query for games
             var query = from g in db.Games
                         select g;
 
+            // Get the list of queried games
             Games = query.ToList();
 
+            // Set lbx source to the games list
             lbxGames.ItemsSource = Games;
+
+            // Init the Filtered games list
+            FilteredGames = new List<Game>();
+            // Make the inital cbx for platform searching the "all" selection
+            Platform_cbx.SelectedIndex = 0;
         }
 
         private void lbxGames_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -50,6 +60,37 @@ namespace s00200671_RonnieConlon_OOD_Final
                 GamePrice_tblk.Text = $"{selectedGame.Price:C}";
                 GamePlatform_tblk.Text = selectedGame.Platform;
                 GameDesc_tblk.Text = selectedGame.Description;
+            }
+        }
+
+        private void ComboBox_DropDownClosed(object sender, EventArgs e)
+        {
+            // Get the selected choice
+            string choice = Platform_cbx.Text.ToLower();
+            
+            // Set list to null to refresh
+            lbxGames.ItemsSource = null;
+
+            // If the choice is all, just set the source to all games list
+            if (choice == "all")
+            {
+                lbxGames.ItemsSource = Games;
+            }
+            else
+            {
+                // Clear the filtered list
+                FilteredGames.Clear();
+
+                // For each game, check is the platform string contains the choice, if so, add it to the filtered list
+                foreach(Game game in Games)
+                {
+                    if (game.Platform.ToLower().Contains(choice))
+                    {
+                        FilteredGames.Add(game);
+                    }
+                }
+
+                lbxGames.ItemsSource = FilteredGames;
             }
         }
     }
