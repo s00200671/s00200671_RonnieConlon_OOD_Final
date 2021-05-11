@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace s00200671_RonnieConlon_OOD_Final
 {
-    class Game
+    public class Game
     {
         // Properties
         public string Name { get; set; }
@@ -27,9 +27,15 @@ namespace s00200671_RonnieConlon_OOD_Final
             Game_Image = game_image;
         }
 
+        public Game() : this("None", 0, "None", "None", 0) { }
+
         public void DecreasePrice(decimal amount)
         {
-            Price -= amount;
+            // The price cannot be decreased below 0
+            if (Price - amount >= 0)
+            {
+                Price -= amount;
+            }
         }
     }
 }
